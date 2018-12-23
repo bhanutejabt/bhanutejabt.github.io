@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html  xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script type="text/javascript" src="rcb.js">	</script>
+	 <title>RCB FAN PAGE</title>
+	  <link rel="stylesheet" style="text/css" href="rcb.css"/>
+</head>
+
+<body> 
+	<h1 align="center"> RCB FAN PAGE  </h1>
+		<img src="img/r8.jpg" id="i1" alt="soorry" height="100" width="200" />
+		
+ <div id="frame" >
+		<h2  id="lo" onclick="showLog();" align="center">LOGIN</h2>
+   <div id="login" >
+	   <form action="" id="log" name="login">
+		    <table cellpadding="4" width="70%" bgcolor="#ce531a" align="center">
+			
+				<tr>
+					<td>USER NAME:</td>
+					<td><input type="text" id="Un" onblur="vaUn();"/> </td>
+				</tr>
+			
+				<tr>
+					<td>PASSWORD:</td>
+					<td><input type="password" id="Lpass" onblur="vaLpass();"/> </td>
+				</tr>
+			
+				<tr>
+				<td align="right"><input type="submit" name="login" id="but"/></td>
+					<td id="err" align="center"></td>
+				</tr>
+			</table>
+	   </form>
+   </div>
+	
+		<h2 id="si" onclick="showSign();" align="center">SIGN UP</h2>
+	
+    <div id="signup" >
+		<form action="" id="sign" name="sign" >
+			<table cellpadding="4" width="70%" bgcolor="#ce531a" align="center" >
+			
+				<tr>
+					<td>NAME:</td>
+					<td><input type="text" id="Snam" onblur="vaSnam();"/> </td>
+				</tr>
+			
+				<tr>
+					<td>USER NAME:</td>
+					<td><input type="text" id="Sun" onblur="vaSUnam();"/> </td>
+				</tr>
+			
+				<tr>
+					<td>PASSWORD:</td>
+					<td><input type="password" id="Spas" onblur="vaSpas();"/> </td>
+				</tr>
+			
+				<tr>
+					<td> CONFIRM PASSWORD:</td>
+					<td><input type="password" id="Scpas" onblur="vaScpas();"/> </td>
+				</tr>
+			
+				<tr>
+					<td>EMAIL:</td>
+					<td><input type="text" id="Sema" onblur="vaSema();"/> </td>
+				</tr>
+			
+				<tr>
+					<td>PHONE NO:</td>
+					<td><input type="text" id="Sph" onblur="vaSph();"/> </td>
+				</tr>
+			
+				<tr>
+					<td>CELL NO:</td>
+					<td><input type="text" id="Scel" onblur="vaScel();"/> </td>
+				</tr>
+			
+				<tr>
+					<td>GENDER</td>
+					<td>
+					<input type="radio" name="GENDER" value="M" size="10" />M
+					<input type="radio" name="GENDER" value="F" size="10" />F
+					</td>
+				</tr>
+		  
+				<tr>
+					<td>DOB</td>
+					<td><input type="text" id="dob" onblur="vadob();"/> </td>
+				</tr>
+			
+				<tr>
+					<td>LANG</td>
+					<td>
+					 <select name="lang">
+					  <option value="EN">ENGLISH</option>
+					  <option value="HIN">HINDI</option>
+					  <option value="TEL">TEL</option>
+					  <option value="FRE">FRENCH</option>
+					  <option value="SPA">SPANISH</option>
+					 </select>
+					</td>
+			    </tr>
+			
+				<tr>
+					<td>HOBBIES</td>
+					<td><input type="checkbox" id="hobbies"/>YES</td>
+				</tr>
+				<tr >
+					<td></td>
+					<td id="hlist">
+						<input type="checkbox" value="CRICKET"/>CRICKET
+						<input type="checkbox" value="MUSIC" />MUSIC<br/>
+					    <input type="checkbox" value="PC GAMES"/>PC GAMES
+						<input type="checkbox" value="TV"/>TV
+					</td>
+				</tr>
+			
+			<tr><td align="center"><input type='submit' name='submit' id="sub"  /></td>
+				<td id="serr" align="center" bgcolor="lightblue"></td></tr>
+		 </table>
+		 
+		</form>
+		
+		
+	</div>
+	<div id="details">
+			<h2 align="center" >REGISTRATION SUCCESSFULL</h2>
+						<h3>DETAILS:</h3>
+
+	<pre style="font-weight:bold; font-size:20px;">
+	NAME      : <span id="d1"></span>
+	USERNAME  : <span id="d2"></span>
+	EMAIL     : <span id="d3"></span>
+	PHONE NO  : <span id="d4"></span>
+	CELL NO   : <span id="d5"></span>
+	DOB       : <span id="d6"></span>
+	</pre>
+
+	</div>
+	
+</div>
+		<img src="img/r7.jpg" id="slideim" alt="soorry"  height="400" width="400" />
+</body>
+</html>
