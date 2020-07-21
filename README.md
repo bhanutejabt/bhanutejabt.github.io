@@ -1,2 +1,2 @@
-# rcb-fan-page-js
-JavaScript based form page
+# rcb-fan-page
+JavaScript based form page (Beginner)
